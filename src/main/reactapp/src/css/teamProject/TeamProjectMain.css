@@ -1,0 +1,168 @@
+/* 스크롤 없애기 */
+body{
+ -ms-overflow-style: none;
+ }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.selectEmployee{
+    color: #9DB2BF;
+}
+
+.contentBox{
+    position : relative;
+    padding-bottom : 0px;
+}
+
+.contentBox2{
+    padding:10px 30px 20px ;
+    height : 500px;
+    /*overflow-y : scroll;*/
+}
+
+.selectBox{
+    display : flex;
+}
+/*----------------팀등록 ()-------------------*/
+.div_1st{ width:335px; }
+.div_2nd{ width:370px;}
+.div_3th{ width:120px; margin: auto;}
+
+/*----------------사원등록페이지 ()-------------------*/
+.eregInputBox .input_title{
+	width:30%;
+
+}
+.eregInputBox .input_box{
+	width:70%;
+
+}
+.emp_regs_content input[type="text"]{
+	padding:7px;
+	width:100%;
+	padding-left:20px;
+
+}
+.emp_regs_content input[type="radio"]:not(:first-of-type){
+	margin-left:20px;
+}
+.emp_regs_content select{
+	padding:7px;
+	width:70%;
+	padding-left:10px;
+	border:none;
+}
+
+
+.topMenuList{
+	display: flex;
+	justify-content: space-around;
+}
+.topMenuList li{
+	font-family: 'ONE-Mobile-Title' !important;
+	font-size: 1.3rem;
+	padding:15px;
+	color:var(--main02);
+}
+.topMenuList li:hover{
+	color:var(--main03);
+}
+header .userbox{
+	width:15%;
+	padding-right: 20px;
+	justify-content:right;
+	align-items: center;
+}
+.emp_name{
+	font-weight:bold;
+	color:var(--main04);
+}
+.emp_name:hover{color:pink; }
+
+header .userbox img{
+	width:60px;
+	height:60px;
+	margin-left:10px;
+	object-fit:contain;
+	border-radius: 50%;
+}
+.eregBtnBox{
+	padding:20px 0;
+}
+
+.inputPname{
+    letter-spacing: 8px !important;
+    width: 35%;
+}
+
+.inputPm{
+    letter-spacing: 1px !important;
+    width: 35%;
+}
+
+.css-165mck{
+    width: 100%;
+}
+
+.pmBox{
+    height: 54px;
+}
+
+.pmNo{
+   /*    width: 68% !important;*/
+}
+
+.pmBtn{
+    height: 30px;
+    padding: 8px 20px;
+    margin-left: 10px;
+}
+/* 팀등록 페이지*/
+.divstep2{
+    width:100% !important;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:0px !important;
+}
+.div_left45{
+    width:45%;
+}
+.div_right55{
+    width:55%;
+}
+
+/* 체크리스트 박스를 감싸는 전체 영역 */
+.checkboxList{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px;
+}
+
+.topText{
+    margin-bottom : 20px;
+}
+/* input checkbox*/
+input[name="cb"]{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+/* 테이블 헤더 타이틀바*/
+.th01{
+    background-color:var(--main04);
+    font-weight:bold;
+}
+.th_cell{
+    padding:10px 0 !important ;
+    color:#fff !important;
+    font-weight:bold !important;
+}
+/* 테이블 바디*/
+.tbody_tr{
+    padding:10px 0 !important ;
+}
+.tbody_tr:hover{
+    background-color: var(--main01);
+}

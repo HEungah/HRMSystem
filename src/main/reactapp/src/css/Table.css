@@ -1,0 +1,201 @@
+/* 체크리스트 박스를 감싸는 전체 영역 */
+.checkboxList{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px;
+}
+
+.topText{
+    margin-bottom : 20px;
+}
+/* input checkbox*/
+input[name="cb"]{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+/* 테이블 헤더 타이틀바*/
+.th01{
+    background-color:var(--main04);
+    font-weight:bold;
+}
+.th_cell{
+    padding:10px 0 !important ;
+    color:#fff !important;
+    font-weight:bold !important;
+}
+/* 테이블 바디*/
+.tbody_tr{
+    padding:10px 0 !important ;
+}
+.tbody_tr:hover{
+    background-color: var(--main01);
+}
+
+/* 검색 필터 영역 */
+.searchBox {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+div[class |='searchBox'] input, select {
+    margin-left:5px;
+    padding:5px;
+    border:none;
+	outline:none;
+	box-shadow: 0 0 3px var(--main02);
+}
+div[className |='searchBox'] button {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+button[class |='searchbtn'] {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+
+.searchBox .keyword{
+    margin-right:5px;
+    width:100px;
+}
+
+searchBoxB {
+    width:70%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+searchBox30 {
+    width:30%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.hr02{
+    border:solid 1px var(--white);
+    margin:17px 0 5px;
+
+}
+.hr01{
+    border:solid 1px var(--main01);
+    margin:10px 0 20px;
+}
+.hr00{
+    border:solid 1px var(--white);
+    margin:3px 0 5px;
+
+}
+.tableTypeA{
+    border-radius:5px;
+    border-collapse: collapse;
+    border:none;
+    width:100%;
+    max-height:530px;
+    overflow:hidden;
+
+}
+.tableTypeA th {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01071em;
+    background-color:var(--main04);
+    color:var(--white);
+    padding:10px 20px;
+}
+.tableTypeA .th_w30{ width:30%}
+.tableTypeA .th_w25{ width:25%}
+.tableTypeA .th_w20{ width:20%}
+.tableTypeA .th_w15{ width:15%}
+.tableTypeA .th_w10{ width:10%}
+
+.tableTypeA td {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01071em;
+    text-align:center;
+    border:solid 1px var(--lgray);
+}
+.tableTypeB tr:hover {
+    background-color:var(--main01);
+}
+.tableTypeA .dataArea{
+    max-height:500px;
+    overflow-y:auto;
+    vertical-align:top;
+    border:0px;
+}
+.tableTypeB{
+    border-collapse: collapse;
+    border:none;
+    border-top:solid 1px var(--main04);
+    width:100%;
+
+}
+.tableTypeB td{
+
+    padding:10px;
+    text-align:center;
+}
+.empSearchBox {
+    margin-bottom : 10px;
+}
+.empSearchBox select, input {
+    margin :0 5px;
+    padding:5px;
+}
+
+.empSearchBox button {
+    padding: 8px 13px;
+    border-radius: 5px;
+    margin-left:5px;
+}
+.empInfoBox {
+    width:380px
+}
+.empInfoT {
+    border-radius:5px;
+    width:380px;
+}
+.empInfoT tr {
+    padding: 7px 0 ;
+
+}
+.empInfoT th {
+    font-family: Roboto, Helvetica, Arial, sans-serif !important;
+    font-weight: normal;
+    background-color:var(--main04);
+    width:160px;
+    color: #fff;
+    font-size:0.8rem !important;
+    padding:7px 0;
+
+}
+.empInfoT td {
+    width:220px;
+    border:none;
+
+}
+.empInfoT input {
+    background-color:#fff;
+    padding:8px;
+    width:100%;
+}
+/**/
+/*mui 컴포넌트 css상제 변환*/
+.css-1uvydh2{
+    height: 0.45rem !important;
+    min-height:17px !important;;
+}
+.css-1hw9j7s{
+    background-color: var(--main02) !important;
+}
+
+.css-1hw9j7s:hover{
+    background-color: var(--main04) !important;
+}
